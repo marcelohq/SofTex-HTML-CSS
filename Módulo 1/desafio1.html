@@ -1,0 +1,73 @@
+<!-- Crie exemplos de utilização das tags mais comuns na HTML: metadados, separação de conteúdo, texto, imagem e formulário. É necessário pelo menos dois exemplos de cada tipo. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Marcelo Henrique dos Santos">
+    <title>Desafio 1</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="desafio1.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+
+        <h2>Marcelo dos Santos</h2>
+    </header>
+
+    <main>
+
+        <section>
+
+            <form>
+
+                <input type="text" id="nome" placeholder="Informe seu nome"/>
+                <input type="number" id="idade" placeholder="Informe sua idade"/>
+                <input type="button" value="Confirmar" onclick="exibir()"/>
+                
+
+            </form>
+
+        </section>
+
+        <br>
+        <section>
+
+            <img src="http://s2.glbimg.com/LAqlSlk4ohqFXvIbAaBbIOVcTeM=/700x420/top/i.glbimg.com/og/ig/infoglobo1/f/original/2015/10/09/the-terminator-008.jpg" alt="Terminartor"/>
+
+            <p>
+                O melhor dos piores.
+            </p>
+
+            <img src="https://i.ebayimg.com/images/g/oGoAAOSwIzBgRuP0/s-l500.jpg" alt="predator"/>
+
+            <p><strong>Wow</strong></p>
+
+        </section>
+
+
+    </main>
+
+    <footer style="text-align:center">GrabDevelopers</footer>
+
+    <script>
+        
+        function exibir(){
+
+            let nome = document.getElementById("nome").value;
+            let idade = document.getElementById("idade").value;
+            alert("Seu nome é: "+nome+" \nsua idade é: "+idade)
+
+        }
+
+    </script>
+    
+</body>
+</html>
