@@ -4,6 +4,7 @@
     min-height: 510px;
     overflow: hidden;
     border: solid 2px black;
+    border-radius: 20px;
 }
 
 .galeria .fotos{
